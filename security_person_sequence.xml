@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<openerp>
+<data noupdate="1">
+	#
+	# Sequences for hotel.security
+	#
+
+	<record forcecreate="1" model="ir.sequence.type" id="seq_type_hotel_security">
+		<field name="name">Hotel Security Person Note ID</field>
+		<field name="code">hotel.security.person</field>
+	</record>
+	<record forcecreate="1" model="ir.sequence" id="seq_hotel_security">
+		<field name="name">Hotel Security Person Note ID</field>
+		<field name="code">hotel.security.person</field>
+		<field name="prefix">SecPsNt/</field>
+		<field name="padding">5</field>
+	</record>
+	
+</data>
+</openerp>

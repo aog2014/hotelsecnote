@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<openerp>
+<data noupdate="1">
+	#
+	# Sequences for hotel.security
+	#
+
+	<record model="ir.sequence.type" id="seq_type_hotel_security">
+		<field name="name">Hotel Security Water Meter ID</field>
+		<field name="code">hotel.security.watermeter</field>
+	</record>
+	<record model="ir.sequence" id="seq_hotel_security">
+		<field name="name">Hotel Security Water Meter ID</field>
+		<field name="code">hotel.security.watermeter</field>
+		<field name="prefix">SecWM/</field>
+		<field name="padding">5</field>
+	</record>
+	
+</data>
+</openerp>
